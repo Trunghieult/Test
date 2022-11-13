@@ -1,0 +1,135 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body *{
+	font-family: "poppins";
+}
+
+.container {
+	padding: 70px 50px 100px; 
+	border: 120px solid #BFC8E5;
+}
+.container .header h3 {
+	font-weight: 500;
+	font-size: 35px;
+	margin-bottom: 15px;
+}
+
+.container .header .menu input {
+	width: 200px;
+	height: 100%;
+	padding-left: 40px;
+}
+
+.container .header .menu .search {
+	position: relative;
+}
+.container .header .menu .search img {
+	width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 15%;
+    left: 5%;
+} 
+
+.container .header .menu {
+	display: flex;
+	justify-content: space-between;
+	padding: 15px 0;
+}
+
+.container .header .menu ul {
+	display: flex;
+	padding: 0;
+	justify-content: space-around;
+	list-style-type: none;
+	justify-items: center;
+}
+
+
+.container .header .menu ul li {
+	padding: 10px;
+}
+.container .header .menu ul li a {
+	font-size: 18px;
+	text-decoration: none;
+	color: #333;
+	padding: 10px;
+}
+
+.container .header .menu ul li a:focus {
+	background-color: #849FFF;
+	color: #fff;
+	border-radius: 10px
+}
+
+.image{
+    object-fit: cover;
+    width: 97px;
+    height: 97px;
+    top: 27px;
+    left: 27px;
+    border-radius: 50%;
+}
+.User{
+    height: 220px;
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+    margin-top: 16px;
+    width: 327px;
+    border-radius: 16px;
+    padding: 14px;
+}
+
+.User:hover{
+    border: 1px solid #BFC8E5;
+    box-shadow: 0px 8px 23px 0px #DAE0F9B2;
+}
+
+.information-customer{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.image_user{
+    margin-right: 20px;
+}
+
+.more_info_user{
+    color: #516FD4;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 70%;
+    line-height: 15px;
+}
+
+.item{
+    border: 1px solid #BFC8E6;
+    border-radius: 10px;
+    margin-right: 6px;
+    padding: 2px 8px;
+    margin-bottom: 6px;
+}
+
+.address{
+    position: relative;
+    bottom: 20px;
+}
+
+.name_user{
+    font-family: "Merriweather";
+	line-height: 3;
+}
+
+.more_info_user_2{
+    color: #516FD4;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    line-height: 15px;
+}
